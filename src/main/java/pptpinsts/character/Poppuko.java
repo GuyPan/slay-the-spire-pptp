@@ -25,6 +25,7 @@ import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import pptpinsts.cards.common.PptpDefend;
 import pptpinsts.cards.common.PptpStrike;
 import pptpinsts.cards.uncommon.PptpKuso;
+import pptpinsts.cards.uncommon.PptpTakeshobo;
 
 import java.util.ArrayList;
 
@@ -125,6 +126,7 @@ public class Poppuko extends CustomPlayer {
         //If you want multiple of the same card, you have to add it multiple times.
         retVal.add(PptpStrike.ID);
         retVal.add(PptpKuso.ID);
+        retVal.add(PptpTakeshobo.ID);
         retVal.add(PptpDefend.ID);
         retVal.add(Apotheosis.ID);
 

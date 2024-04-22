@@ -20,5 +20,9 @@
   "${modID}:PptpKuso": {
     "NAME": "Kuso",
     "DESCRIPTION": "Apply !M! ${modID}:KUSO."
+  },
+  "${modID}:PptpTakeshobo": {
+    "NAME": "Takeshobo",
+    "DESCRIPTION": "Gain !M! Strength."
   }
 }
