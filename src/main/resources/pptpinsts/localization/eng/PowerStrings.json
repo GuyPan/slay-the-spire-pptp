@@ -4,5 +4,13 @@
     "DESCRIPTIONS": [
       "You are Very Cool and Strong."
     ]
-  }
+  },
+  "${modID}:Kuso": {
+  "NAME": "Kuso",
+  "DESCRIPTIONS": [
+    "Attacks deal #b",
+    " negative damage."
+  ]
+}
+
 }

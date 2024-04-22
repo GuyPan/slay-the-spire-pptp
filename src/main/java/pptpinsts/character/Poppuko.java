@@ -10,6 +10,8 @@ import com.badlogic.gdx.math.MathUtils;
 import com.evacipated.cardcrawl.modthespire.lib.SpireEnum;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.colorless.Apotheosis;
+import com.megacrit.cardcrawl.cards.red.Armaments;
 import com.megacrit.cardcrawl.cards.red.Strike_Red;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -22,7 +24,7 @@ import com.megacrit.cardcrawl.relics.PrismaticShard;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import pptpinsts.cards.common.PptpDefend;
 import pptpinsts.cards.common.PptpStrike;
-import pptpinsts.cards.uncommon.PptpTakeshobo;
+import pptpinsts.cards.uncommon.PptpKuso;
 
 import java.util.ArrayList;
 
@@ -31,10 +33,10 @@ import static pptpinsts.BasicMod.makeID;
 
 public class Poppuko extends CustomPlayer {
     //Stats
-    public static final int ENERGY_PER_TURN = 3;
+    public static final int ENERGY_PER_TURN = 999;
     public static final int MAX_HP = 1;
     public static final int STARTING_GOLD = 99;
-    public static final int CARD_DRAW = 5;
+    public static final int CARD_DRAW = 10;
     public static final int ORB_SLOTS = 0;
 
     //Strings
@@ -122,10 +124,9 @@ public class Poppuko extends CustomPlayer {
         //List of IDs of cards for your starting deck.
         //If you want multiple of the same card, you have to add it multiple times.
         retVal.add(PptpStrike.ID);
-        retVal.add(PptpTakeshobo.ID);
+        retVal.add(PptpKuso.ID);
         retVal.add(PptpDefend.ID);
-        retVal.add(PptpStrike.ID);
-        retVal.add(PptpStrike.ID);
+        retVal.add(Apotheosis.ID);
 
         return retVal;
     }
@@ -163,9 +164,9 @@ public class Poppuko extends CustomPlayer {
         };
     }
 
-    private final Color cardRenderColor = Color.LIGHT_GRAY.cpy(); //Used for some vfx on moving cards (sometimes) (maybe)
-    private final Color cardTrailColor = Color.LIGHT_GRAY.cpy(); //Used for card trail vfx during gameplay.
-    private final Color slashAttackColor = Color.LIGHT_GRAY.cpy(); //Used for a screen tint effect when you attack the heart.
+    private final Color cardRenderColor = Color.YELLOW.cpy(); //Used for some vfx on moving cards (sometimes) (maybe)
+    private final Color cardTrailColor = Color.YELLOW.cpy(); //Used for card trail vfx during gameplay.
+    private final Color slashAttackColor = Color.YELLOW.cpy(); //Used for a screen tint effect when you attack the heart.
     @Override
     public Color getCardRenderColor() {
         return cardRenderColor;

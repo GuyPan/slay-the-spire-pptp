@@ -17,8 +17,8 @@
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! Block."
   },
-  "${modID}:PptpTakeshobo": {
-    "NAME": "Takeshobo",
-    "DESCRIPTION": "PUNCH"
+  "${modID}:PptpKuso": {
+    "NAME": "Kuso",
+    "DESCRIPTION": "Apply !M! ${modID}:KUSO."
   }
 }
