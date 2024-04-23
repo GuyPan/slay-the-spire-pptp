@@ -11,7 +11,6 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireEnum;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.colorless.Apotheosis;
-import com.megacrit.cardcrawl.cards.red.Armaments;
 import com.megacrit.cardcrawl.cards.red.Strike_Red;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -26,6 +25,7 @@ import pptpinsts.cards.common.PptpDefend;
 import pptpinsts.cards.common.PptpStrike;
 import pptpinsts.cards.uncommon.PptpKuso;
 import pptpinsts.cards.uncommon.PptpTakeshobo;
+import pptpinsts.cards.rare.PptpAoe;
 
 import java.util.ArrayList;
 
@@ -124,7 +124,7 @@ public class Poppuko extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
         //List of IDs of cards for your starting deck.
         //If you want multiple of the same card, you have to add it multiple times.
-        retVal.add(PptpStrike.ID);
+        retVal.add(PptpAoe.ID);
         retVal.add(PptpKuso.ID);
         retVal.add(PptpTakeshobo.ID);
         retVal.add(PptpDefend.ID);
