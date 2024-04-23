@@ -125,7 +125,7 @@ public class Poppuko extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
         //List of IDs of cards for your starting deck.
         //If you want multiple of the same card, you have to add it multiple times.
-        retVal.add(PptpAoe.ID);
+        retVal.add(PptpStrike.ID);
         retVal.add(PptpKuso.ID);
         retVal.add(PptpTakeshobo.ID);
         retVal.add(PptpDefend.ID);

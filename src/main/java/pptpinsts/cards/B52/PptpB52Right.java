@@ -26,7 +26,7 @@ public class PptpB52Right extends BaseCard {
 
     @Override
     public AbstractCard makeCopy() { //Optional
-        return new PptpB52Left();
+        return new PptpB52Right();
     }
 
 }
