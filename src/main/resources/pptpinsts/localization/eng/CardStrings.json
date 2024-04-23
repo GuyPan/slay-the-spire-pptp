@@ -28,5 +28,25 @@
   "${modID}:PptpAoe": {
     "NAME": "AOE",
     "DESCRIPTION": "Deal !D! damage to ALL enemies."
+  },
+  "${modID}:PptpB52Top": {
+    "NAME": "Top",
+    "DESCRIPTION": "Top."
+  },
+  "${modID}:PptpB52Bottom": {
+    "NAME": "Bottom",
+    "DESCRIPTION": "Bottom."
+  },
+  "${modID}:PptpB52Left": {
+    "NAME": "Left",
+    "DESCRIPTION": "Left."
+  },
+  "${modID}:PptpB52Right": {
+    "NAME": "Right",
+    "DESCRIPTION": "Right."
+  },
+  "${modID}:PptpB52Center": {
+    "NAME": "Center",
+    "DESCRIPTION": "Center."
   }
 }
