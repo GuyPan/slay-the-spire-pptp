@@ -48,5 +48,9 @@
   "${modID}:PptpB52Center": {
     "NAME": "Center",
     "DESCRIPTION": "Center."
+  },
+  "${modID}:PptpCallDetective": {
+    "NAME": "Call Detective PIPIMI",
+    "DESCRIPTION": "Generate Detective PIPIMI Orb."
   }
 }

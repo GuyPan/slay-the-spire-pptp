@@ -8,5 +8,12 @@
       " NL #yEvoke: Deal #b",
       " damage to all enemies."
     ]
+  },
+  "${modID}:PptpDetective": {
+    "NAME": "Detective PIPIMI",
+    "DESCRIPTION": [
+      "#yPassive: At the start of turn, gain [B] . NL #yEvoke: Gain #b",
+      " [B] . NL Plasma is unaffected by #yFocus."
+    ]
   }
 }
