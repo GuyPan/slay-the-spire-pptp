@@ -6,11 +6,17 @@
     ]
   },
   "${modID}:Kuso": {
-  "NAME": "Kuso",
-  "DESCRIPTIONS": [
-    "Attacks deal #b",
-    " negative damage."
-  ]
-}
-
+    "NAME": "Kuso",
+    "DESCRIPTIONS": [
+      "Attacks deal #b",
+      " negative damage."
+    ]
+  },
+  "${modID}:HellShake": {
+    "NAME": "HellShake",
+    "DESCRIPTIONS": [
+      "Apply #b",
+      " HellShake."
+    ]
+  }
 }

@@ -23,8 +23,8 @@ import com.megacrit.cardcrawl.relics.PrismaticShard;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import pptpinsts.cards.common.PptpCallDetective;
 import pptpinsts.cards.common.PptpDefend;
+import pptpinsts.cards.common.PptpHellShake;
 import pptpinsts.cards.common.PptpStrike;
-import pptpinsts.cards.uncommon.PptpTakeshobo;
 
 import java.util.ArrayList;
 
@@ -123,9 +123,9 @@ public class Poppuko extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
         //List of IDs of cards for your starting deck.
         //If you want multiple of the same card, you have to add it multiple times.
-        retVal.add(PptpDefend.ID);
+        retVal.add(PptpHellShake.ID);
         retVal.add(PptpCallDetective.ID);
-        retVal.add(PptpTakeshobo.ID);
+        retVal.add(PptpDefend.ID);
         retVal.add(PptpStrike.ID);
         retVal.add(Apotheosis.ID);
 

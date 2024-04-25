@@ -19,7 +19,7 @@ public class PptpDefend extends BaseCard {
             1 //The card's base cost. -1 is X cost, -2 is no cost for unplayable cards like curses, or Reflex.
     );
 
-    private static final int BLOCK = 5;
+    private static final int BLOCK = 996;
     private static final int UPG_BLOCK = 3;
 
     public PptpDefend() {
