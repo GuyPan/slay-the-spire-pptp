@@ -4,6 +4,7 @@ import basemod.BaseMod;
 import basemod.abstracts.CustomEnergyOrb;
 import basemod.abstracts.CustomPlayer;
 import basemod.animations.AbstractAnimation;
+import basemod.animations.SpriterAnimation;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.math.MathUtils;
@@ -21,10 +22,13 @@ import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.relics.PrismaticShard;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
+import pptpinsts.cards.B52.*;
+import pptpinsts.cards.common.PptpAllSeeingEye;
 import pptpinsts.cards.common.PptpCallDetective;
 import pptpinsts.cards.common.PptpDefend;
 import pptpinsts.cards.common.PptpHellShake;
 import pptpinsts.cards.common.PptpStrike;
+import pptpinsts.cards.uncommon.PptpTakeshobo;
 
 import java.util.ArrayList;
 
@@ -98,14 +102,17 @@ public class Poppuko extends CustomPlayer {
     public Poppuko() {
         super(getNames()[0], Meta.PPTP_CLASS,
                 new CustomEnergyOrb(null, null, null), //Energy Orb
-                //new SpriterAnimation(characterPath("animation/default.scml"))); //Animation
-                new AbstractAnimation() { //Change the animation line to this.
+
+                new SpriterAnimation(characterPath("animation/Pptp.scml"))); //Animation
+                /*new AbstractAnimation() { //Change the animation line to this.
                     @Override
                     public Type type() {
                         return Type.NONE; //A NONE animation results in img being used instead.
                     }
-                });
-        initializeClass(characterPath("image.png"),
+                });*/
+
+        //initializeClass(characterPath("image.png"),// For No Animation
+        initializeClass(null, //For animation
                 SHOULDER_2,
                 SHOULDER_1,
                 CORPSE,
@@ -123,9 +130,9 @@ public class Poppuko extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
         //List of IDs of cards for your starting deck.
         //If you want multiple of the same card, you have to add it multiple times.
-        retVal.add(PptpHellShake.ID);
-        retVal.add(PptpCallDetective.ID);
         retVal.add(PptpDefend.ID);
+        retVal.add(PptpCallDetective.ID);
+        retVal.add(PptpTakeshobo.ID);
         retVal.add(PptpStrike.ID);
         retVal.add(Apotheosis.ID);
 
