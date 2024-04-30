@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="pptp_pipi_wrist.png" width="74" height="125" pivot_x="0.133333" pivot_y="0.267327"/>
+        <file id="1" name="pptp_pipi_rightLeg.png" width="29" height="37" pivot_x="0.391304" pivot_y="0.9"/>
+        <file id="2" name="pptp_pipi_leftLeg.png" width="26" height="41" pivot_x="0.52381" pivot_y="0.909091"/>
+        <file id="3" name="pptp_pipi_head.png" width="94" height="133" pivot_x="0.539474" pivot_y="0.140187"/>
+        <file id="4" name="pptp_pipi_bow.png" width="67" height="47" pivot_x="0.481481" pivot_y="0.526316"/>
+        <file id="5" name="pptp_pipi_body.png" width="122" height="93" pivot_x="0.545455" pivot_y="0.84"/>
+        <file id="6" name="pptp_pipi_arm.png" width="100" height="97" pivot_x="0.037037" pivot_y="0.589744"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="bone_000" type="bone" w="67.8836" h="10"/>
+        <obj_info name="bone_001" type="bone" w="34.3379" h="10"/>
+        <obj_info name="bone_002" type="bone" w="33.6947" h="10"/>
+        <obj_info name="bone_003" type="bone" w="72.1604" h="10"/>
+        <obj_info name="bone_004" type="bone" w="118.856" h="10"/>
+        <obj_info name="bone_005" type="bone" w="108.813" h="10"/>
+        <obj_info name="bone_006" type="bone" w="7.8408" h="10"/>
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="7" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="8" key="0"/>
+                    <bone_ref id="2" parent="0" timeline="9" key="0"/>
+                    <bone_ref id="3" parent="0" timeline="10" key="0"/>
+                    <bone_ref id="4" parent="3" timeline="11" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="12" key="0"/>
+                    <bone_ref id="6" parent="5" timeline="13" key="0"/>
+                    <object_ref id="0" parent="2" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="3" timeline="5" key="0" z_index="2"/>
+                    <object_ref id="3" parent="0" timeline="4" key="0" z_index="3"/>
+                    <object_ref id="4" parent="6" timeline="3" key="0" z_index="4"/>
+                    <object_ref id="5" parent="5" timeline="2" key="0" z_index="5"/>
+                    <object_ref id="6" parent="4" timeline="6" key="0" z_index="6"/>
+                </key>
+                <key id="1" time="600">
+                    <bone_ref id="0" timeline="7" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="8" key="0"/>
+                    <bone_ref id="2" parent="0" timeline="9" key="0"/>
+                    <bone_ref id="3" parent="0" timeline="10" key="1"/>
+                    <bone_ref id="4" parent="3" timeline="11" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="12" key="1"/>
+                    <bone_ref id="6" parent="5" timeline="13" key="0"/>
+                    <object_ref id="0" parent="2" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="3" timeline="5" key="0" z_index="2"/>
+                    <object_ref id="3" parent="0" timeline="4" key="1" z_index="3"/>
+                    <object_ref id="4" parent="6" timeline="3" key="1" z_index="4"/>
+                    <object_ref id="5" parent="5" timeline="2" key="0" z_index="5"/>
+                    <object_ref id="6" parent="4" timeline="6" key="0" z_index="6"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="pptp_pipi_rightLeg">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="3.890954" y="-2.351652" angle="88.237609"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="pptp_pipi_leftLeg">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="2.012969" y="0.646049" angle="95.194429"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="pptp_pipi_head">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="0.086162" y="-1.623505" angle="269.454342" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="pptp_pipi_bow">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="4.633238" y="2.111794" angle="262.405357" scale_x="1"/>
+                </key>
+                <key id="1" time="600" spin="0">
+                    <object folder="0" file="4" x="0.524522" y="2.659623" angle="262.405357" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="pptp_pipi_body">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-2.488325" y="-1.297035" angle="90.874677"/>
+                </key>
+                <key id="1" time="600" spin="0">
+                    <object folder="0" file="5" x="7.386726" y="-3.219051" angle="90.874677"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="pptp_pipi_arm">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="-2.063473" y="-4.43372" angle="54.940573"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="pptp_pipi_wrist">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="25.714606" y="10.699971" angle="293.100201"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="59.585492" y="104.145078" angle="269.125323"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="65.625386" y="-21.79867" angle="355.680248"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="2" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="66.618033" y="15.008337" angle="2.637068"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="3" name="bone_003" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="-3.519742" y="26.892409" angle="41.254753"/>
+                </key>
+                <key id="1" time="600">
+                    <bone x="6.833836" y="27.568673" angle="31.637396"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="75.917952" y="-17.195569" angle="121.840372"/>
+                </key>
+            </timeline>
+            <timeline id="12" obj="5" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-5.682999" y="-1.123154" angle="181.420334" scale_x="1"/>
+                </key>
+                <key id="1" time="600" spin="0">
+                    <bone x="6.240621" y="-1.459309" angle="181.420334" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="13" obj="6" name="bone_006" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="111.931761" y="1.006616" angle="7.048986"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
