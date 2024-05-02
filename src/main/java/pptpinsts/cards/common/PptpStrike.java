@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import pptpinsts.cards.BaseCard;
 import pptpinsts.character.Poppuko;
 import pptpinsts.util.CardStats;
+import pptpinsts.util.CustomTags;
 
 public class PptpStrike extends BaseCard {
     public static final String ID = makeID(PptpStrike.class.getSimpleName());
@@ -28,6 +29,7 @@ public class PptpStrike extends BaseCard {
         super(ID, info); //Pass the required information to the BaseCard constructor.
         tags.add(CardTags.STRIKE);
         tags.add(BaseModCardTags.BASIC_STRIKE);
+        tags.add(CustomTags.Popuko);
         setDamage(DAMAGE, UPG_DAMAGE); //Sets the card's damage and how much it changes when upgraded.
     }
 

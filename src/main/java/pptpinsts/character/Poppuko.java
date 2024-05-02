@@ -28,6 +28,7 @@ import pptpinsts.cards.common.PptpCallDetective;
 import pptpinsts.cards.common.PptpDefend;
 import pptpinsts.cards.common.PptpHellShake;
 import pptpinsts.cards.common.PptpStrike;
+import pptpinsts.cards.rare.PptpPopukoForm;
 import pptpinsts.cards.uncommon.PptpTakeshobo;
 
 import java.util.ArrayList;
@@ -135,6 +136,7 @@ public class Poppuko extends CustomPlayer {
         retVal.add(PptpTakeshobo.ID);
         retVal.add(PptpStrike.ID);
         retVal.add(Apotheosis.ID);
+        retVal.add(PptpPopukoForm.ID);
 
         return retVal;
     }

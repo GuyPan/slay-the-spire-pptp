@@ -1,6 +1,7 @@
 package pptpinsts.powers;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.AbstractPower;
@@ -35,4 +36,5 @@ public class HellShake extends BasePower{
             this.addToBot(new HellShakeLoseHPAction(this.owner, this.source, this.amount, AbstractGameAction.AttackEffect.POISON));
         }
     }
+
 }
